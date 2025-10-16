@@ -23,7 +23,7 @@ const profileData = {
   name: "Maudhio Andre Wijaya",
   jobs: "Full-stack Website Developer",
   tagline: "Menciptakan Pengalaman Digital yang Berarti.",
-  bio: "Saya adalah seorang Full-stack Website Developer dengan yang berpengalaman dalam membangun aplikasi web modern menggunakan React.js, Next.js, dll. Fokus saya adalah menciptakan website cepat, ramah SEO, dan memiliki pengalaman pengguna yang optimal.",
+  bio: "Saya adalah seorang Full-stack Website Developer yang berpengalaman dalam membangun aplikasi web modern menggunakan React.js, Next.js, dll. Fokus saya adalah menciptakan website cepat, ramah SEO, dan memiliki pengalaman pengguna yang optimal.",
   location: "Bogor, Indonesia",
   skills: [
     { name: "React.js", color: "text-white bg-blue-700", icon: <Code /> },
