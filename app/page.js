@@ -15,15 +15,15 @@ import {
 
 export const metadata = {
   title: "Maudhio Andre Wijaya",
-  description: "Full-stack website developer",
+  description: "Website developer",
 };
 
 // === Data Profil ===
 const profileData = {
   name: "Maudhio Andre Wijaya",
-  jobs: "Full-stack Website Developer",
+  jobs: "Website Developer",
   tagline: "Menciptakan Pengalaman Digital yang Berarti.",
-  bio: "Saya adalah seorang Full-stack Website Developer yang berpengalaman dalam membangun aplikasi web modern menggunakan React.js, Next.js, dll. Fokus saya adalah menciptakan website cepat, ramah SEO, dan memiliki pengalaman pengguna yang optimal.",
+  bio: "Saya adalah seorang Website Developer yang berpengalaman dalam membangun aplikasi web modern menggunakan React.js, Next.js, Vue.js dll. Fokus saya adalah menciptakan website cepat, ramah SEO, dan memiliki pengalaman pengguna yang optimal.",
   location: "Bogor, Indonesia",
   skills: [
     { name: "React.js", color: "text-white bg-blue-700", icon: <Code /> },
@@ -68,6 +68,89 @@ const profileData = {
     githubUrl: "https://github.com/MaudhioAndre",
     phone: ["0895704270480", "085817838429"],
   },
+  projects: [
+    {
+      type: "involved",
+      name: "SIP Halut",
+      link: "https://sip-halmahera-utara.mardawa.id/",
+      company: "PT Mardawa Intiguna Persada",
+      position: "Frontend Website Developer",
+      stack: ["React.js", "HTML", "CSS", "Tailwind CSS"],
+      desc: "Website Sistem Informasi Pendidikan Halmahera Utara yang memudahkan dalam mengakses informasi terkait sekolah, murid, dan pengumuman penting lainnya.",
+    },
+    {
+      type: "involved",
+      name: "UKS",
+      link: "https://uks.kemendikdasmen.go.id/",
+      company: "PT Mardawa Intiguna Persada",
+      position: "Frontend Website Developer",
+      stack: ["React.js", "HTML", "CSS", "Tailwind CSS"],
+      desc: "Website ini berfungsi sebagai pusat informasi dan sumber daya mengenai program Usaha Kesehatan Sekolah/Madrasah yang bertujuan untuk meningkatkan pertumbuhan dan perkembangan peserta didik yang harmonis dan optimal, agar menjadi sumber daya manusia yang berkualitas. ",
+    },
+    {
+      type: "involved",
+      name: "DOSIS",
+      link: "???",
+      company: "PT Mardawa Intiguna Persada",
+      position: "Frontend Website Developer",
+      stack: ["React.js", "HTML", "CSS", "Tailwind CSS"],
+      desc: "Website Document system tracker untuk memudahkan dalam pengelolaan dokumen dan pelacakan statusnya secara efisien.",
+    },
+    {
+      type: "involved",
+      name: "SPMB Kota Bogor 2025",
+      link: "https://spmb-sd.kotabogor.go.id",
+      company: "PT Mardawa Intiguna Persada",
+      position: "Frontend Website Developer",
+      stack: ["React.js", "HTML", "CSS", "Tailwind CSS"],
+      desc: "Website Sistem Penerimaan Murid Baru (SPMB) untuk jenjang Sekolah Dasar dan Sekolah Menengah Pertama di Kota Bogor tahun 2025.",
+    },
+    {
+      type: "involved",
+      name: "SPMB Kota Palembang 2025",
+      link: "https://portal-spmb.palembang.go.id/",
+      company: "PT Mardawa Intiguna Persada",
+      position: "Frontend Website Developer",
+      stack: ["React.js", "HTML", "CSS", "Tailwind CSS"],
+      desc: "Website Sistem Penerimaan Murid Baru (SPMB) untuk jenjang Sekolah Dasar dan Sekolah Menengah Pertama di Kota Bogor tahun 2025.",
+    },
+    {
+      type: "involved",
+      name: "SPMB Kota Cilegon 2025",
+      link: "https://app.spmb-cilegon.id/",
+      company: "PT Mardawa Intiguna Persada",
+      position: "Frontend Website Developer",
+      stack: ["React.js", "HTML", "CSS", "Tailwind CSS"],
+      desc: "Website Sistem Penerimaan Murid Baru (SPMB) untuk jenjang Sekolah Dasar dan Sekolah Menengah Pertama di Kota Bogor tahun 2025.",
+    },
+    {
+      type: "involved",
+      name: "Dhammawangsa",
+      link: "https://Dhammawangsa.org",
+      company: "PT Gugus Karang Mekar",
+      position: "Fullstack Website Developer",
+      stack: ["React.js", "HTML", "CSS&SCSS", "PHP Native", "Mysql"],
+      desc: "Membuat sistem CMS berbasis React.js dan PHP Native, merancang REST API, mengelola database MySQL, serta menerapkan pengujian Blackbox Testing.",
+    },
+    {
+      type: "personal",
+      name: "MeWeeb",
+      link: "https://me-weeb-info.vercel.app/",
+      company: "-",
+      position: "Frontend Website Developer",
+      stack: ["React.js", "HTML", "CSS", "Tailwind CSS"],
+      desc: "Website yang menyediakan informasi lengkap tentang anime, manga, dan karakter favorit para penggemar budaya Jepang.",
+    },
+    {
+      type: "personal",
+      name: "Movie Vibe",
+      link: "https://movievibe-five.vercel.app/",
+      company: "-",
+      position: "Frontend Website Developer",
+      stack: ["Vue.js", "HTML", "CSS", "Tailwind CSS"],
+      desc: "Website untuk mencari informasi film berdasarkan genre, tahun rilis, dan rating menggunakan API eksternal.",
+    },
+  ],
 };
 
 // === Komponen Pengalaman ===
@@ -90,15 +173,16 @@ export default function App() {
         <title>{`${profileData.name} | ${profileData.jobs}`}</title>
         <meta
           name="description"
-          content="Profil resmi Maudhio Andre Wijaya, seorang Full-stack Website Developer dari Bogor, Indonesia yang berpengalaman dalam React.js, Next.js, dan PHP Native."
+          content="Profil resmi Maudhio Andre Wijaya, seorang Website Developer dari Bogor, Indonesia yang berpengalaman dalam React.js, Next.js, Vue.js, dll."
         />
         <meta
           name="keywords"
-          content="Maudhio Andre Wijaya, Full-stack Developer, React.js Developer, Next.js, PHP Native, Web Developer Bogor"
+          content="Maudhio Andre Wijaya, Website Developer, React.js Developer, Next.js, PHP Native, Web Developer Bogor"
         />
         <meta name="robots" content="index, follow" />
         <meta name="author" content={profileData.name} />
-        <link rel="canonical" href="https://me-weeb-info.vercel.app/" />
+
+        <link rel="icon" href="../public/images/favicon.ico" sizes="any" />
 
         {/* Open Graph */}
         <meta
@@ -153,7 +237,7 @@ export default function App() {
 
       {/* === Konten Utama === */}
       <main className="min-h-screen bg-gray-900 text-gray-100 font-sans p-4 sm:p-8">
-        <div className="max-w-4xl mx-auto space-y-10">
+        <div className="max-w-5xl mx-auto space-y-10">
           {/* === Header === */}
           <header className="flex flex-col md:flex-row items-center justify-between p-8 bg-gray-800 rounded-2xl shadow-2xl hover:shadow-cyan-500/30 transition duration-500">
             <div className="flex items-center space-x-6">
@@ -239,7 +323,7 @@ export default function App() {
                 </p>
               </article>
 
-              {/* === Kontak Tetap Ada === */}
+              {/* === Kontak === */}
               <article className="bg-gray-800 p-6 rounded-xl shadow-xl">
                 <h2 className="flex items-center text-lg font-bold text-cyan-400 mb-4">
                   <Mail className="w-6 h-6 mr-2" /> Kontak Langsung
@@ -261,10 +345,7 @@ export default function App() {
                   ))}
                 </ul>
               </article>
-            </aside>
 
-            {/* Kolom Kanan */}
-            <section className="lg:col-span-2 space-y-8">
               {/* Keahlian */}
               <article className="bg-gray-800 p-6 rounded-xl shadow-xl">
                 <h2 className="flex items-center text-2xl font-bold text-cyan-400 mb-4">
@@ -292,6 +373,43 @@ export default function App() {
                   <ExperienceCard key={index} {...exp} />
                 ))}
               </article>
+            </aside>
+
+            {/* Kolom Kanan */}
+            <section className="lg:col-span-2 space-y-8">
+              <article className="bg-gray-800 p-6 rounded-xl shadow-xl">
+                <h2 className="flex items-center text-2xl font-bold text-cyan-400 mb-4">
+                  <Briefcase className="w-6 h-6 mr-2" /> Proyek yang Terlibat
+                </h2>
+
+                {/* Projects Involved */}
+                <div className="mb-8">
+                  <h3 className="text-lg font-semibold text-gray-300 mb-4">
+                    Proyek Perusahaan
+                  </h3>
+                  <div className="space-y-4">
+                    {profileData.projects
+                      .filter((project) => project.type === "involved")
+                      .map((project, index) => (
+                        <ProjectCard key={index} project={project} />
+                      ))}
+                  </div>
+                </div>
+
+                {/* Personal Projects */}
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-300 mb-4">
+                    Proyek Pribadi
+                  </h3>
+                  <div className="space-y-4">
+                    {profileData.projects
+                      .filter((project) => project.type === "personal")
+                      .map((project, index) => (
+                        <ProjectCard key={index} project={project} />
+                      ))}
+                  </div>
+                </div>
+              </article>
             </section>
           </section>
 
@@ -305,3 +423,43 @@ export default function App() {
     </>
   );
 }
+
+// Component untuk Project Card
+const ProjectCard = ({ project }) => (
+  <div className="border-l-4 border-cyan-500 pl-4 py-4 hover:bg-gray-700/50 rounded-r-lg transition duration-300">
+    <div className="flex flex-wrap items-center gap-2 mb-2">
+      <h3 className="text-xl font-semibold text-white">{project.name}</h3>
+      <span className="px-2 py-1 text-xs rounded-full bg-cyan-600 text-white">
+        {project.position}
+      </span>
+    </div>
+    {project.company != "-" && (
+      <p className="text-cyan-400 italic mb-2">{project.company}</p>
+    )}
+
+    <div className="flex flex-wrap gap-2 mb-2">
+      {project.stack.map((tech, index) => (
+        <span
+          key={index}
+          className="px-2 py-1 text-xs rounded-full bg-gray-700 text-gray-300"
+        >
+          {tech}
+        </span>
+      ))}
+    </div>
+    {project.desc !== "-" && (
+      <p className="text-gray-300 text-sm">{project.desc}</p>
+    )}
+    {project.link !== "???" && (
+      <a
+        href={project.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center mt-2 text-sm text-cyan-400 hover:text-cyan-300"
+      >
+        <Zap className="w-4 h-4 mr-1" />
+        Lihat Proyek
+      </a>
+    )}
+  </div>
+);
