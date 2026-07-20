@@ -15,15 +15,16 @@ import {
 
 export const metadata = {
   title: "Maudhio Andre Wijaya",
-  description: "Website developer",
+  description: "Frontend Website developer",
 };
 
 // === Data Profil ===
 const profileData = {
   name: "Maudhio Andre Wijaya",
-  jobs: "Website Developer",
+  jobs: "Frontend Website Developer",
   tagline: "Menciptakan Pengalaman Digital yang Berarti.",
-  bio: "Saya adalah seorang Website Developer yang berpengalaman dalam membangun aplikasi web modern menggunakan React.js, Next.js, Vue.js dll. Fokus saya adalah menciptakan website cepat, ramah SEO, dan memiliki pengalaman pengguna yang optimal.",
+  // bio: "Saya adalah seorang Website Developer yang berpengalaman dalam membangun aplikasi web modern menggunakan React.js, Next.js, Vue.js dll. Fokus saya adalah menciptakan website cepat, ramah SEO, dan memiliki pengalaman pengguna yang optimal.",
+  bio: "Frontend Website Developer dengan pengalaman mengembangkan aplikasi web menggunakan React.js, Next.js, Vue.js, dan Tailwind CSS. Memiliki pemahaman yang baik mengenai REST API, Git, responsive design, SEO, serta pengembangan antarmuka yang cepat dan mudah digunakan. Berpengalaman mengerjakan berbagai proyek untuk instansi pemerintah maupun perusahaan swasta dengan fokus pada kualitas kode, maintainability, dan pengalaman pengguna. Terbiasa bekerja dalam tim menggunakan Git serta memiliki kemampuan beradaptasi dengan teknologi dan kebutuhan bisnis yang terus berkembang.",
   location: "Bogor, Indonesia",
   skills: [
     { name: "React.js", color: "text-white bg-blue-700", icon: <Code /> },
@@ -32,10 +33,10 @@ const profileData = {
     { name: "Vue.js", color: "text-white bg-green-600", icon: <Code /> },
     { name: "CSS / SCSS", color: "text-white bg-teal-700", icon: <Code /> },
     { name: "Tailwind CSS", color: "text-white bg-teal-800", icon: <Code /> },
-    { name: "PHP Native", color: "text-white bg-indigo-700", icon: <Code /> },
-    { name: "MySQL", color: "text-white bg-yellow-700", icon: <Code /> },
+    // { name: "PHP Native", color: "text-white bg-indigo-700", icon: <Code /> },
+    // { name: "MySQL", color: "text-white bg-yellow-700", icon: <Code /> },
     { name: "GIT", color: "text-white bg-red-700", icon: <Code /> },
-    { name: "Unit Testing", color: "text-white bg-sky-700", icon: <Code /> },
+    // { name: "Unit Testing", color: "text-white bg-sky-700", icon: <Code /> },
     {
       name: "Black box testing",
       color: "text-white bg-lime-700",
@@ -72,7 +73,7 @@ const profileData = {
     {
       type: "involved",
       name: "SIP Halut",
-      link: "https://sip-halmahera-utara.mardawa.id/",
+      link: "https://sip-dikbud.halmaherautarakab.go.id/",
       company: "PT Mardawa Intiguna Persada",
       position: "Frontend Website Developer",
       stack: ["React.js", "HTML", "CSS", "Tailwind CSS"],
@@ -98,30 +99,48 @@ const profileData = {
     },
     {
       type: "involved",
-      name: "SPMB Kota Bogor 2025",
+      name: "SPMB Kota Bogor 2025 & 2026",
       link: "https://spmb-sd.kotabogor.go.id",
       company: "PT Mardawa Intiguna Persada",
       position: "Frontend Website Developer",
       stack: ["React.js", "HTML", "CSS", "Tailwind CSS"],
-      desc: "Website Sistem Penerimaan Murid Baru (SPMB) untuk jenjang Sekolah Dasar dan Sekolah Menengah Pertama di Kota Bogor tahun 2025.",
+      desc: "Website Sistem Penerimaan Murid Baru (SPMB) untuk jenjang Sekolah Dasar dan Sekolah Menengah Pertama di Kota Bogor tahun 2025 & 2026.",
     },
     {
       type: "involved",
-      name: "SPMB Kota Palembang 2025",
+      name: "SPMB Kota Palembang 2025 & 2026",
       link: "https://portal-spmb.palembang.go.id/",
       company: "PT Mardawa Intiguna Persada",
       position: "Frontend Website Developer",
       stack: ["React.js", "HTML", "CSS", "Tailwind CSS"],
-      desc: "Website Sistem Penerimaan Murid Baru (SPMB) untuk jenjang Sekolah Dasar dan Sekolah Menengah Pertama di Kota Bogor tahun 2025.",
+      desc: "Website Sistem Penerimaan Murid Baru (SPMB) untuk jenjang Sekolah Dasar dan Sekolah Menengah Pertama di Kota Palembang tahun 2025 & 2026.",
     },
     {
       type: "involved",
-      name: "SPMB Kota Cilegon 2025",
-      link: "https://app.spmb-cilegon.id/",
+      name: "SPMB Kota Cilegon 2025 & 2026",
+      link: "https://spmb.dindikbud.cilegon.go.id",
       company: "PT Mardawa Intiguna Persada",
       position: "Frontend Website Developer",
       stack: ["React.js", "HTML", "CSS", "Tailwind CSS"],
-      desc: "Website Sistem Penerimaan Murid Baru (SPMB) untuk jenjang Sekolah Dasar dan Sekolah Menengah Pertama di Kota Bogor tahun 2025.",
+      desc: "Website Sistem Penerimaan Murid Baru (SPMB) untuk jenjang Sekolah Dasar dan Sekolah Menengah Pertama di Kota Cilegon tahun 2025 dan 2026.",
+    },
+    {
+      type: "involved",
+      name: "SPMB Kota Sukabumi 2026",
+      link: "https://spmb.sukabumikota.go.id/",
+      company: "PT Mardawa Intiguna Persada",
+      position: "Frontend Website Developer",
+      stack: ["React.js", "HTML", "CSS", "Tailwind CSS"],
+      desc: "Website Sistem Penerimaan Murid Baru (SPMB) untuk jenjang Sekolah Dasar dan Sekolah Menengah Pertama di Kota Sukabumi tahun 2026.",
+    },
+    {
+      type: "involved",
+      name: "SPMB Kota Serang 2026",
+      link: "https://spmbsmp.serangkota.go.id/",
+      company: "PT Mardawa Intiguna Persada",
+      position: "Frontend Website Developer",
+      stack: ["React.js", "HTML", "CSS", "Tailwind CSS"],
+      desc: "Website Sistem Penerimaan Murid Baru (SPMB) untuk jenjang Sekolah Dasar dan Sekolah Menengah Pertama di Kota Serang tahun 2026.",
     },
     {
       type: "involved",
@@ -377,6 +396,7 @@ export default function App() {
 
             {/* Kolom Kanan */}
             <section className="lg:col-span-2 space-y-8">
+              {/* Proyek yang terlibat */}
               <article className="bg-gray-800 p-6 rounded-xl shadow-xl">
                 <h2 className="flex items-center text-2xl font-bold text-cyan-400 mb-4">
                   <Briefcase className="w-6 h-6 mr-2" /> Proyek yang Terlibat
